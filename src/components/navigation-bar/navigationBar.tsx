@@ -79,7 +79,7 @@ function NavigationBar() {
                 Feedbacks, sugestões e interação com a comunidade.
               </ListIconItem>
               <ListIconItem title="Email" icon={email}>
-                Necessita de um contato mais formal?
+                Para contatos mais formais.
               </ListIconItem>
             </ul>
           </NavigationMenuContent>

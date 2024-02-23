@@ -1,16 +1,16 @@
 "use client";
 
-import logo from "../assets/images/svg/logo.svg";
+import logo from "../../assets/images/svg/logo.svg";
 
 import Image from "next/image";
-import NavigationBar from "./navigation-bar/navigationBar";
+import NavigationBar from "../navigation-bar/navigationBar";
 import {
   DiscordLogoIcon,
   EnvelopeClosedIcon,
   GitHubLogoIcon,
   SunIcon,
 } from "@radix-ui/react-icons";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 import Link from "next/link";
 
 function Header() {
