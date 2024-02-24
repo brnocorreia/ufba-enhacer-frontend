@@ -1,6 +1,5 @@
 "use client";
 
-import Footer from "../footer/footer";
 import HomeCards from "./home-cards";
 import HomeTitle from "./home-title";
 

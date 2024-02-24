@@ -15,14 +15,13 @@ import {
   StarIcon,
 } from "@radix-ui/react-icons";
 import React from "react";
-import { Button } from "../ui/button";
+
 import {
   Card,
   CardHeader,
   CardTitle,
   CardDescription,
   CardContent,
-  CardFooter,
 } from "../ui/card";
 import { IconProps } from "@radix-ui/react-icons/dist/types";
 import { Badge } from "../ui/badge";
@@ -31,7 +30,7 @@ function HomeCards() {
   return (
     <div className="w-full h-full items-center justify-center grid md:grid-cols-3 gap-4 px-[3vw] pb-[3vw]">
       <Card className="flex-col transition-all ease-in-out duration-200 hover:bg-header">
-        <a href="/" className="w-full h-full p-3">
+        <a href="/disciplines" className="w-full h-full p-3">
           <CardHeader>
             <div className="flex items-center gap-5">
               <CardTitle>Disciplinas</CardTitle>
